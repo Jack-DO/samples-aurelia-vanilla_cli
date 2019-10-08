@@ -28,7 +28,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.We
 
 3. Execute `choco install yarn`. Should install v1.7.x.
 
-4. Execute `yarn global aurelia-cli`. Should install > v0.32.x
+4. Execute `yarn add global aurelia-cli`. Should install > v0.32.x
 
     Note: Execute `refreshenv` or restart machine if you can't run `yarn`.
 
